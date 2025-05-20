@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://asimovtech.com.br/sitemap.xml
+
+# Permitir todos os robôs de busca a acessar todo o site
+User-agent: *
+Disallow:
+
+# Permitir Google
+User-agent: Googlebot
+Allow: /
+
+# Permitir Bing
+User-agent: Bingbot
+Allow: /
