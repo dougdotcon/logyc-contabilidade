@@ -1,16 +1,16 @@
 // Typed.js animation for hero section
 document.addEventListener('DOMContentLoaded', function() {
     const typedElement = document.querySelector('.typed-text');
-    
+
     if (typedElement) {
         const typed = new Typed(typedElement, {
             strings: [
-                'contabilidade empresarial',
-                'departamento fiscal',
-                'departamento pessoal',
-                'consultoria tributária',
+                'consultoria estratégica',
                 'planejamento tributário',
-                'legalização de empresas'
+                'economia fiscal',
+                'segurança jurídica',
+                'informações gerenciais',
+                'suporte personalizado'
             ],
             typeSpeed: 50,
             backSpeed: 30,
