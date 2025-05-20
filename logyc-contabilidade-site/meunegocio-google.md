@@ -42,10 +42,10 @@ Centro, Botafogo, Flamengo, Copacabana, Ipanema, Leblon, Barra da Tijuca, Recrei
 (21) 99876-5432
 
 **Site:**
-https://www.asimovtech.com.br
+https://www.logyccontabilidade.com.br
 
 **E-mail de Contato:**
-contato@asimovtech.com.br
+contato@logyccontabilidade.com.br
 
 ## Horário de Funcionamento
 

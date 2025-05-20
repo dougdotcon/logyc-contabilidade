@@ -1,7 +1,7 @@
 /* EQUIPE */
 Desenvolvedor: ASIMOV TECH SOLUTIONS
-Contato: contato@asimovtech.com.br
-Site: https://asimovtech.com.br
+Contato: contato@logyccontabilidade.com.br
+Site: https://logyccontabilidade.com.br
 Localização: Rio de Janeiro, Brasil
 
 /* AGRADECIMENTOS */

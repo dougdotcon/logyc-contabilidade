@@ -123,10 +123,10 @@ O site é totalmente responsivo e se adapta aos seguintes breakpoints:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-contato@asimovtech.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contato@asimovtech.com.br)
+[![Email](https://img.shields.io/badge/Email-contato@logyccontabilidade.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contato@logyccontabilidade.com.br)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+55_21_98230--1476-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5521982301476)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ASIMOV_TECH-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/asimovink)
-[![GitHub](https://img.shields.io/badge/GitHub-asimov--tech--solutions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asimovtechsolutions)
+[![GitHub](https://img.shields.io/badge/GitHub-asimov--tech--solutions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/logyccontabilidadesolutions)
 
 </div>
 
