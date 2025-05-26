@@ -1,0 +1,14 @@
+/* EQUIPE */
+Desenvolvedor: LOGYC CONTABILIDADE
+Contato: contato@logyccontabilidade.com.br
+Site: https://logyccontabilidade.com.br
+Localização: Rio de Janeiro, Brasil
+
+/* AGRADECIMENTOS */
+Agradecemos a todos os nossos clientes e parceiros pela confiança.
+
+/* SITE */
+Última atualização: 2024/06/01
+Linguagens: HTML5, CSS3, JavaScript
+Componentes: Font Awesome, Swiper.js
+Software: Visual Studio Code, Adobe XD, Git

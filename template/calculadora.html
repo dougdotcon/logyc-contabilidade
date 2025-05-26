@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de Mensalidade - LOGYC CONTABILIDADE</title>
+    <meta name="description" content="Calcule a mensalidade dos serviços contábeis da LOGYC CONTABILIDADE de acordo com seu regime tributário e faturamento." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/img/logo.png" type="image/png">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global-fixes.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="stylesheet" href="assets/css/fixes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/img/logo.png" alt="LOGYC CONTABILIDADE" class="main-logo">
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Início</span>
+                </a>
+                <a href="servicos.html" class="nav-link">
+                    <i class="fas fa-calculator"></i>
+                    <span>Serviços</span>
+                </a>
+                <a href="sobre.html" class="nav-link">
+                    <i class="fas fa-building"></i>
+                    <span>Sobre Nós</span>
+                </a>
+                <a href="blog.html" class="nav-link">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="como-ajudar.html" class="nav-link">
+                    <i class="fas fa-hands-helping"></i>
+                    <span>Como Podemos Ajudar</span>
+                </a>
+                <a href="abertura-empresa.html" class="nav-link">
+                    <i class="fas fa-file-signature"></i>
+                    <span>ABERTURA DE CNPJ/EMPRESA</span>
+                </a>
+                <a href="trocar-contabilidade.html" class="nav-button">
+                    <i class="fas fa-exchange-alt"></i>
+                    <span>Trocar de Contabilidade</span>
+                </a>
+            </div>
+
+            <button class="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <a href="index.html" class="mobile-nav-link">
+            <i class="fas fa-home"></i>
+            <span>Início</span>
+        </a>
+        <a href="servicos.html" class="mobile-nav-link">
+            <i class="fas fa-calculator"></i>
+            <span>Serviços</span>
+        </a>
+        <a href="sobre.html" class="mobile-nav-link">
+            <i class="fas fa-building"></i>
+            <span>Sobre Nós</span>
+        </a>
+        <a href="blog.html" class="mobile-nav-link">
+            <i class="fas fa-blog"></i>
+            <span>Blog</span>
+        </a>
+        <a href="como-ajudar.html" class="mobile-nav-link">
+            <i class="fas fa-hands-helping"></i>
+            <span>Como Podemos Ajudar</span>
+        </a>
+        <a href="abertura-empresa.html" class="mobile-nav-link">
+            <i class="fas fa-file-signature"></i>
+            <span>ABERTURA DE CNPJ/EMPRESA</span>
+        </a>
+        <a href="trocar-contabilidade.html" class="mobile-nav-link">
+            <i class="fas fa-exchange-alt"></i>
+            <span>Trocar de Contabilidade</span>
+        </a>
+    </div>
+
+    <!-- Cabeçalho da Página -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Calculadora de Mensalidade</h1>
+            <p class="page-description">Descubra o valor da mensalidade dos nossos serviços contábeis</p>
+        </div>
+    </section>
+
+    <!-- Calculadora -->
+    <section class="section">
+        <div class="container">
+            <div class="calculator-container">
+                <div class="calculator-intro">
+                    <h2>Calcule sua Mensalidade</h2>
+                    <p>Selecione o tipo de empresa e informe o faturamento mensal para calcular o valor da mensalidade dos nossos serviços contábeis.</p>
+                </div>
+
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="company-type">Tipo de Empresa</label>
+                        <select id="company-type" name="company-type" required>
+                            <option value="">Selecione o tipo de empresa</option>
+                            <option value="mei">CNPJ MEI</option>
+                            <option value="servicos">Prestação de Serviços (Simples Nacional)</option>
+                            <option value="comercio">Comércio (Simples Nacional)</option>
+                            <option value="industria">Indústria (Simples Nacional)</option>
+                            <option value="profissionais">Profissionais Liberais (Simples Nacional)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="monthly-revenue">Faturamento Mensal (R$)</label>
+                        <input type="number" id="monthly-revenue" name="monthly-revenue" placeholder="0,00" min="0" step="0.01">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="employees">Número de Funcionários</label>
+                        <input type="number" id="employees" name="employees" placeholder="0" min="0" value="0">
+                    </div>
+
+                    <button type="button" id="calculate-btn" class="button button-primary">
+                        <i class="fas fa-calculator"></i>
+                        Calcular Mensalidade
+                    </button>
+                </div>
+
+                <div class="calculator-result" id="calculator-result" style="display: none;">
+                    <h3>Resultado do Cálculo</h3>
+                    <div class="result-details">
+                        <div class="result-item">
+                            <span class="result-label">Regime Tributário:</span>
+                            <span class="result-value" id="regime-result"></span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">Limite de Faturamento:</span>
+                            <span class="result-value" id="limit-result"></span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">Mensalidade Base:</span>
+                            <span class="result-value" id="base-result"></span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">Funcionários:</span>
+                            <span class="result-value" id="employees-result"></span>
+                        </div>
+                        <div class="result-item total">
+                            <span class="result-label">Mensalidade Total:</span>
+                            <span class="result-value" id="total-result"></span>
+                        </div>
+                    </div>
+                    <div class="result-example" id="result-example"></div>
+                </div>
+
+                <div class="pricing-info">
+                    <h3>Informações sobre Preços</h3>
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <h4>CNPJ MEI</h4>
+                            <ul>
+                                <li>Regime: SIMEI / MEI</li>
+                                <li>Limite: R$ 81.000,00</li>
+                                <li>Mensalidade: R$ 75,00</li>
+                                <li>Funcionários: +R$ 40,00 cada</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h4>Prestação de Serviços</h4>
+                            <ul>
+                                <li>Até R$ 20.000/mês: R$ 285,00</li>
+                                <li>Acima R$ 35.000/mês: R$ 370,00</li>
+                                <li>Até 3 funcionários inclusos</li>
+                                <li>Acima de 3: +R$ 25,00 cada</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h4>Comércio</h4>
+                            <ul>
+                                <li>Até R$ 25.000/mês: R$ 245,00</li>
+                                <li>Acima R$ 45.000/mês: R$ 390,00</li>
+                                <li>Até 3 funcionários inclusos</li>
+                                <li>Acima de 3: +R$ 25,00 cada</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h4>Indústria</h4>
+                            <ul>
+                                <li>Até R$ 35.000/mês: R$ 300,00</li>
+                                <li>Acima R$ 50.000/mês: R$ 545,00</li>
+                                <li>Até 3 funcionários inclusos</li>
+                                <li>Acima de 3: +R$ 25,00 cada</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h4>Profissionais Liberais</h4>
+                            <ul>
+                                <li>Até R$ 15.000/mês: R$ 199,00</li>
+                                <li>Acima R$ 25.000/mês: R$ 234,00</li>
+                                <li>Até 3 funcionários inclusos</li>
+                                <li>Acima de 3: +R$ 25,00 cada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Interessado nos nossos serviços?</h3>
+                    <p>Entre em contato conosco para uma proposta personalizada</p>
+                    <a href="https://api.whatsapp.com/send/?phone=5521982301476&text=Olá! Gostaria de saber mais sobre os serviços da LOGYC CONTABILIDADE." class="button button-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        Falar com Especialista
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <!-- Coluna 1: Logo e Descrição -->
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo.png" alt="LOGYC CONTABILIDADE Logo">
+                    </div>
+                    <p class="footer-description">Soluções contábeis inteligentes para o sucesso do seu negócio.</p>
+                </div>
+
+                <!-- Coluna 4: Contato -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+55 21 98230-1476</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@logyccontabilidade.com.br</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rio de Janeiro, RJ</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Seg-Sex: 9h às 18h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 LOGYC CONTABILIDADE. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="privacidade.html">Política de Privacidade</a>
+                    <a href="termos.html">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/calculator.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
